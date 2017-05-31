@@ -1,0 +1,28 @@
+{
+  "name": "Algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "mocha --compilers js:babel-register ./testing/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamB37/Algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamB37/Algorithms/issues"
+  },
+  "homepage": "https://github.com/AdamB37/Algorithms#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "chai": "^4.0.0",
+    "mocha": "^3.4.2"
+  }
+}
