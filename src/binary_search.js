@@ -15,5 +15,6 @@ export default function binarySearch(arr, val) {
     }
     if(arr[right] === val) return right
   }
+  
   return null
 }
